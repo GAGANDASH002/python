@@ -44,7 +44,7 @@ def find_fact(n):
         
 print(find_fact(5))
 
-'''RECuRSION'''
+ '''RECuRSION'''
 
 def show(n):
     if(n==0):#base case
