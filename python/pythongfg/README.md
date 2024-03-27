@@ -1,1 +1,0 @@
-#this has questions on python GeeksForGeeks
