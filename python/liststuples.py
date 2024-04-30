@@ -1,18 +1,20 @@
 marks=[94.4,95.2,96,92]
+name=["Sakshi"]
+print(name)
 print(marks)
 #can be accesed using index and length using len() function
-print(len(marks))
+print(len(marks))#returns number of elements in a list
 print(marks[2])
 #strings are immutable whereas lists are mutable
 #slicing rules are same as string
 print(marks[:2])
 
-"""list methods"""
-marks.append(4)#adds 4 at last
+"""list methods/functions"""
+marks.append(4)#adds 4 at last of list 
 marks.sort()#ascending order
 marks.sort(reverse=True)#descending order
-marks.reverse()#reverses the list
-marks.insert( 2, "Gagan")#adds element at end
+marks.reverse()#reverses the original list
+marks.insert( 2, "Gagan")#adds element at specified index
 print(marks) 
 marks.remove("Gagan")#removes first occurence
 print(marks)
@@ -34,16 +36,16 @@ store in a list'''
 mov1=input("enter movie 1\n")
 mov2=input("enter movie 2\n")
 mov3=input("enter movie 3\n")
-list=[mov1,mov2,mov3]
-print(list)
+mov_list=[mov1,mov2,mov3]
+print(mov_list)
 
-'''wap to check if a list contains a palindrom
+'''wap to check if a list contains a palindrome
 of elements'''
 
-list=[1,2,3,2,1]
-list2=list.copy()#returns a shallow copy of the list
+list1=[1,2,34,5,1]
+list2=list1.copy()#returns a shallow copy of the list
 list2.reverse()
-if(list2==list):
+if(list2==list1):
     print("PALINDROME")
 else:
-    print("NOT A PLAINDROME")
+    print("NOT A PALINDROME")
