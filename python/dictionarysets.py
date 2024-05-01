@@ -7,6 +7,7 @@ info={
     "marks":[90,20,30],
     "cgpa":8.6,
     "is male":True,
+    1:"abcd"
 }
 print(info)
 
@@ -16,7 +17,7 @@ whereas values can be anything"""
 
 print(info["name"])#accessing keys of a dict.
 info["name"]="maverick"#reassigned values
-info["callsign"]="dierra"#added new value
+info["callsign"]="dierra"#added new key value pair
 print(info)
 
 null_dict={}
@@ -42,8 +43,8 @@ print(Fighters.get("pilot"))#returns value of the key
 Fighters.update({"branch":"flying"})#adds and updates new key value to dict
 print(Fighters)
 
-"""Sets are collection of unordere items,unique items
-and immutable elements"""
+"""Sets are collection of unordered items,unique items
+and mutable elements"""
 
 #we can store all values in a set except list and dict as they are mutable
 
