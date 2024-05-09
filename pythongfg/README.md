@@ -1,1 +1,1 @@
-#this has questions on python GeeksForGeeks
+# python questions <a href="https://commons.wikimedia.org/wiki/File:GeeksforGeeks.svg" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/GeeksforGeeks.svg/116px-GeeksforGeeks.svg.png?20200909192408" alt="java" width="30" height="45"/> </a>
