@@ -25,7 +25,7 @@ print(s2.name)
 
 '''class and instance attributes'''
 
-'''data different for each attribute is called instance attributes
+'''data different for each object is called instance attributes
 values same for all objects of a class are called class attributes'''
 
 class student:
@@ -39,6 +39,7 @@ print(s1.college)
 
 s2=student("Arjun")
 print(s2.name)
+print(s2.college)
 
 #if name of instance and class attributes are same then instance attr. has higher priority
 
