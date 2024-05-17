@@ -90,6 +90,7 @@ car1.start()
 Create methods for debit credit and printing balance"""
 
 class Account:
+
     def __init__(self,bal,accno):
         self.balance=bal
         self.accno=accno
@@ -108,7 +109,7 @@ class Account:
     def show(self):
          print("account ",self.accno,"has balance",self.balance)
 
-a = Account(2000,1234)
+a = Account(2000,1234)   
 a.show()
 
 a.debit(200)
