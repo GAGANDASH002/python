@@ -3,7 +3,7 @@
 
 #syntax f=open("file_name","mode")
 
-f=open("demo.txt","r")# r i used to read the file
+f=open("demo.txt","r")# r is used to read the file
 data = f.read()
 print(data)
 print(type(data))
@@ -102,3 +102,6 @@ with open ("num.txt","r") as f:
             count+=1
         
 print(count)
+
+with open  ("record.txt","a") as f:
+    f.write("hello")
